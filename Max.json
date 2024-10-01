@@ -1,0 +1,10 @@
+/**
+ * _id: The id of the group.
+ * fieldN: The first field name.
+ */
+{
+  _id: "$ship_mode",
+  maxx_profit: {
+    $max: { $multiply: ["$profit"] }
+  }
+}

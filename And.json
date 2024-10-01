@@ -1,0 +1,11 @@
+/**
+ * query: The query in MQL.
+ */
+{
+  $and: [
+    {
+      sales: { $gt: 440 }
+    },
+    { ship_mode: "Same Day" }
+  ]
+}

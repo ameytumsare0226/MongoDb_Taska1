@@ -1,0 +1,9 @@
+/**
+ * query: The query in MQL.
+ */
+{
+
+	region	:{
+    $in: ["Central" , "South" ]
+  }
+}

@@ -1,0 +1,9 @@
+/**
+ * query: The query in MQL.
+ */
+
+ {
+   product_id:{ 
+  $regex: "^OFF" 
+ }
+ }

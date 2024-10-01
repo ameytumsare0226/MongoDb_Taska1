@@ -1,0 +1,11 @@
+/**
+ * query: The query in MQL.
+ */
+{
+  $or: [
+    {
+      age: { $gt: 30 }
+    },
+    { region: "Central" }
+  ]
+}
